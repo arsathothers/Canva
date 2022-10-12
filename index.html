@@ -1,106 +1,69 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html>
 <head>
-    <!-Below are the other Meta Tags-->
-<!--<head>-->
-<!--<meta charset="UTF-8"> Specifies the character encoding for the HTML document-->
-<!--<meta name="description" content="Free Web tutorials"> Define a description of your web page-->
-<!--<meta name="keywords" content="HTML, CSS, JavaScript"> Define keywords for search engines-->
-<!--<meta name="author" content="John Doe"> Define the author of a page-->
-<!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> Setting the viewport to make your website look good on all devices-->
-<!--</head>-->
-    <meta character="utf-8">
-    <title>Mohamed_Arsath</title>
+<meta charset="UTF-8">
+<title>Mohamed Arsath</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="favicon.ico">
+<!--    below are the 3 lines which is used to download the font from this link if their system isn't have it by pre-build; here we have generated link for font "ubuntu" & "comic neue" using google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<table cellspacing="21px">
-    <tr>
-        <td><img src="demo.jpeg" alt="Arsath Profile Picture" width="90" height="150"></td>
-        <td><h1> Mohamed Arsath </h1>
-<p><em>Software Engineer</em></p>
-<p>Tirunelveli, Tamil Nadu</p>
-<p>Experienced Junior Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in Python (Programming Language), ALM, and Teradata SQL. Strong engineering professional with a Master of Computer Application focused in Computer Science from Mohamed Sathak College of ARTS and SCIENCE College.</p>
-</td>
-    </tr>
-</table>
+<div class="top_container">
+    <img src="images/cloud.png" alt="cloud.png" class="top_cloud">
+    <h1>Mohamed Arsath</h1>
+    <h4 id="se">Software Engineer</h4>
+    <img class="bottom_cloud" src="images/cloud.png" alt="cloud.png">
+    <img src="images/mountain.png" alt="mountain.png">
+</div>
 
-<!--can give type attributes from below option for ordered list-->
-<!--Type	Description-->
-<!--Type "disc"	This is the default style. In this style, the list items are marked with bullets.-->
-<!--Type "circle"	In this style, the list items are marked with circles.-->
-<!--Type "square"	In this style, the list items are marked with squares.-->
-<!--Type "none"	In this style, the list items are not marked .-->
-<hr>
-<h3 style="font-size:19px">Work Experience</h3>
-<table cellspacing="21px">
-    <tr>
-        <th>Period</th>
-        <th>Company</th>
-        <th>Roles & Responsibilities</th>
-    </tr>
-    <tr>
-        <td>2020- 2022</td>
-        <td>Tata Consultancy Services</td>
-        <td>Place your text here...</td>
-    </tr>
-</table>
+<div class="middle-container">
+  <div class="profile">
+    <img id="my_img" src="images/img.png" alt="profile">
+    <h2>Brief</h2>
+    <p class="intro" >Goal Oriented professional targeting for challenging assignments with an organization of repute preferably in emerging technologies.</p>
+  </div>
+  <hr>
 
-<hr>
-<h3 style="font-size:19px">Educations</h3>
-<ul>
-    <li>From Rani Matric Hr Sec School completed HSC</li>
-    <li>Completed Bachelor of Computer Application with 61 % in Sadakathullah Appa College, Tirunelveli</li>
-    <li>Completed MAster of Computer Application with 61 % in Mohamed Sathak College of ARTS and SCIENCE, Chennai</li>
-</ul>
+  <div class="skill">
+    <h2>My Skills.</h2>
+    <div class="skill-row">
+      <img class="code-img" src="images/skills.png" alt="profile">
+      <h3>Skill sets</h3>
+        <ul>
+            <li>Computer Language - Python, SQL, HTML5, CSS3</li>
+            <li>Familiar with Windows and Linux system</li>
+            <li>Tools Used : HP-ALM, CQ, BMC Remedy, ApplicationManager(Monitoring tool), AD manager &
+SAP ERP</li>
+                </ul>
+    </div>
 
-<!--can give type attributes from below option for ordered list-->
-<!--Type 	Description-->
-<!--type="1" 	The list items will be numbered with numbers (default)-->
-<!--type="A" 	The list items will be numbered with uppercase letters-->
-<!--type="a" 	The list items will be numbered with lowercase letters-->
-<!--type="I" 	The list items will be numbered with uppercase roman numbers-->
-<!--type="i" 	The list items will be numbered with lowercase roman numbers-->
+    <div class="skill-row">
+<!--      <img class="img-right" src="images/.png " alt="">-->
+      <h3 id="what_i_can_do">What i did?</h3>
+      <p>Prepare test plan and test cases and review with business associates and developers. Testing and Executing various scenarios based on TRD. Have taken ownership of Application Manager. Coordinating with infrastructure team to ensure zero customer impact due to incidents. Responsible for resolving issues by acting as a L1 Service Desk Engineer after non business hours.</p>
+    </div>
+  </div>
+  <hr>
 
-<p><img align="bottom" src="Contact.png" alt = "Contact" width = "35" height="35" ><a href ="contact_me.html">Contact</a></p>
+  <div>
+    <h2>Get In Touch</h2>
+    <h3>For queries.</h3>
+    <p id="declaration">Will be available for clarify queries regarding previous work experience.</p>
+    <a href="mailto:arsathothers@gmail.com" class="Contact-me-btn">Contact Me</a>
+  </div>
+</div>
 
-<hr>
-<h3 style="text-align:center; font-size:19px">Hobbies</h3>
-<ol type="1">
-    <li>Learning</li>
-    <li>Surfing on bucks</li>
-    <li><a href="https://www.healthline.com/health/gas-leak-symptoms">Leaking gas</a></li>
-</ol>
 
-<hr>
-<h3> Skill Sets</h3>
-<table cellspacing="21px">
-    <tr>
-        <td>
-            <table cellspacing="21px">
-                <tr>
-                    <td>Python</td>
-                    <td>*****</td>
-                </tr>
-                <tr>
-                    <td>Web Development</td>
-                    <td>***</td>
-                </tr>
-            </table>
-        </td>
-        <td>
-            <table cellspacing="21px">
-                <tr>
-                    <td>Manual Testing</td>
-                    <td>***</td>
-                </tr>
-                <tr>
-                    <td>NOC Monitoring</td>
-                    <td>*****</td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
+<div class="bottom-container">
+  <img class="AnchorImg" src="images/linkedin.png" href="www.linkedin.com/in/arsathothers/"/><a class="footer-link" href="https://twitter.com/">Indeed</a>
+  <img class="AnchorImg" src="images/hackers_rank_img.png" href="https://www.hackerrank.com/"/><a class="footer-link" href="https://twitter.com/">HackersRank</a>
+    <img class="AnchorImg" src="images/discord_img.jpeg" href="#"/><a class="footer-link" href="https://twitter.com/">Discord</a>
+  <p id="copyright">© 2018 Mohamed Arsath.</p>
+</div>
+
 </body>
 </html>
